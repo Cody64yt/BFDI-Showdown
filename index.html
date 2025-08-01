@@ -11,15 +11,18 @@
         nav {
             background: #0074D9;
             padding: 10px 0;
-            border-radius: 12px;
+            width: 100%;
+            border-radius: 0; /* Remove border-radius from nav */
         }
         nav ul {
             list-style: none;
-            margin: 0;
+            margin: 0 auto;
             padding: 0;
             display: flex;
             gap: 20px;
             justify-content: center;
+            max-width: 900px;
+            border-radius: 12px; /* Rounded corners for the menu itself */
         }
         nav ul li {
             display: inline;
